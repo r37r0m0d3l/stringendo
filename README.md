@@ -29,7 +29,10 @@ import { stringendo } from "stringendo";
 
 ```javascript
 import { stringendo } from "stringendo";
-console.log(stringendo(" good\n+$#\n日programmør "));
+
+const text = " good\n+$#\n日programmør ";
+const consolePrint = true;
+const inspectionAsJSON = stringendo(text, consolePrint);
 ```
 
 ```json
