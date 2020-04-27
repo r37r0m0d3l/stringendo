@@ -51,7 +51,18 @@
     "dist/stringendo.mjs.map"
   ],
   "homepage": "https://github.com/r37r0m0d3l/stringendo",
-  "keywords": [],
+  "keywords": [
+    "console",
+    "debug",
+    "debugging",
+    "echo",
+    "inspector",
+    "log",
+    "logger",
+    "logging",
+    "print",
+    "variable"
+  ],
   "license": "MIT",
   "main": "./dist/stringendo.cjs",
   "module": "./dist/stringendo.mjs",
