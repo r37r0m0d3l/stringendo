@@ -32,6 +32,10 @@
   "engineStrict": true,
   "exports": {
     ".": {
+      "browser": {
+        "import": "./dist/stringendo.mjs",
+        "require": "./dist/stringendo.cjs"
+      },
       "node": {
         "import": "./dist/stringendo.mjs",
         "require": "./dist/stringendo.cjs"
@@ -78,10 +82,10 @@
     "lint": "eslint ./src/**/*.mjs",
     "lint:md": "remark .",
     "test": "jest",
-    "test:cov": "jest --coverage",
+    "test:coverage": "jest --collect-coverage",
     "package:upgrade": "npm-check --update"
   },
   "type": "module",
   "types": "./dist/stringendo.d.ts",
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
