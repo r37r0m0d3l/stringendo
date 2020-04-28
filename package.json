@@ -83,5 +83,5 @@
   },
   "type": "module",
   "types": "./dist/stringendo.d.ts",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
