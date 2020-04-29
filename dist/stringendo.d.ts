@@ -8,7 +8,7 @@ export interface IStringendo {
     upper: string;
   };
   information: {
-    characters: string;
+    characters: number;
     length: number;
     lines: number;
   };
@@ -27,7 +27,7 @@ export interface IStringendo {
     url: string;
   };
   list: {
-    chars: string;
+    chars: string[];
     codes: number[];
   };
 }
