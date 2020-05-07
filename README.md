@@ -2,39 +2,70 @@
 
 JavaScript string inspector.
 
-[![npm](https://badgen.net/npm/v/stringendo?&icon=npm&label=npm&color=DD3636)](https://www.npmjs.com/package/stringendo)
-[![downloads](https://badgen.net/npm/dt/stringendo?&icon=terminal&label=downloads&color=009688)](https://www.npmjs.com/package/stringendo)
-[![stars](https://badgen.net/github/stars/r37r0m0d3l/stringendo?&icon=github&label=stars&color=ffcc33)](https://github.com/r37r0m0d3l/stringendo)
-[![types](https://badgen.net/npm/types/stringendo?&icon=typescript&label=types&color=1E90FF)](https://github.com/r37r0m0d3l/stringendo/blob/master/dist/stringendo.d.ts)
-[![build](https://badgen.net/travis/r37r0m0d3l/stringendo?&icon=travis&label=build)](https://travis-ci.org/r37r0m0d3l/stringendo)
-[![lgtm](https://badgen.net/lgtm/grade/g/r37r0m0d3l/stringendo?&icon=lgtm&label=lgtm:js/ts&color=00C853)](https://lgtm.com/projects/g/r37r0m0d3l/stringendo/alerts/)
+[![Buy Me A Coffee][buymeacoffee-img]][buymeacoffee-url]
+[![Follow New Releases][releasly-img]][releasly-url]
+
+[![NPM Version][npm-version-img]][npm-version-url]
+[![NPM Downloads][npm-downloads-img]][npm-downloads-url]
+[![GitHub Stars][gh-stars-img]][gh-stars-url]
+[![TypeScript Typings][ts-img]][ts-url]
+[![Travis CI][travis-img]][travis-url]
+[![LGTM][lgtm-img]][lgtm-url]
+
+---
+
+*If you use this project don't forget to give a ⭐ [star](https://github.com/r37r0m0d3l/stringendo) ⭐ to it on GitHub!*
 
 ---
 
 ## Usage
 
-Require CommonJS.
+### Functions
+
+-   stringendo()
+-   textCharCount()
+-   textHasEmoji()
+-   textHasNonASCII()
+-   textIsMultiline()
+-   textIsNormalized()
+-   textIsTrimmed()
+-   textLength()
+-   textLineCount()
+-   textListChars()
+-   textListCodes()
+-   textToURI()
+-   textToURL()
+
+### Importing
+
+CommonJS import.
 
 ```javascript
-const {
-  stringendo,
-  textHasEmoji, textHasNonASCII, textIsMultiline, textIsNormalized, textIsTrimmed,
-  textCharCount, textLength, textLineCount,
-  textListCodes, textListChars,
-  textToURI, textToURL,
-} = require("stringendo");
+const { stringendo } = require("stringendo");
 ```
 
-Import as ECMAScript module.
+ECMAScript Module.
 
 ```javascript
-import {
-  stringendo,
-  textHasEmoji, textHasNonASCII, textIsMultiline, textIsNormalized, textIsTrimmed,
-  textCharCount, textLength, textLineCount,
-  textListCodes, textListChars,
-  textToURI, textToURL,
-} from "stringendo";
+import { stringendo } from "stringendo";
+```
+
+AMD, UMD, browser script tag.
+
+```html
+<script src="https://unpkg.com/stringendo"></script>
+```
+
+CDN (unpkg [https://unpkg.com/](https://unpkg.com/))
+
+```html
+<script src="https://unpkg.com/stringendo" type="module"></script>
+```
+
+Deno (Pika [https://pika.dev/](https://pika.dev/))
+
+```javascript
+import { stringendo } from "https://cdn.pika.dev/stringendo";
 ```
 
 ## Examples
@@ -136,3 +167,22 @@ String inspection:
 [My other projects](https://r37r0m0d3l.icu/open_source_map)
 
 <img src="https://raw.githubusercontent.com/r37r0m0d3l/r37r0m0d3l/master/osmap.svg?sanitize=true" width="960" height="520" style="display:block;height:auto;margin-left:auto;margin-right:auto;min-height:520px;min-width:960px;width:100%;">
+
+<!-- Badges -->
+
+[buymeacoffee-url]: https://buymeacoffee.com/r37r0m0d3l
+[buymeacoffee-img]: https://img.shields.io/badge/support-buymeacoffee-1E90FF.svg?&logo=buy-me-a-coffee&label=support
+[gh-stars-url]: https://github.com/r37r0m0d3l/stringendo
+[gh-stars-img]: https://badgen.net/github/stars/r37r0m0d3l/stringendo?&icon=github&label=stars&color=FFCC33
+[lgtm-url]: https://github.com/r37r0m0d3l/stringendo
+[lgtm-img]: https://badgen.net/lgtm/grade/g/r37r0m0d3l/stringendo?&icon=lgtm&label=lgtm:js/ts&color=00C853
+[npm-version-url]: https://npmjs.com/package/stringendo
+[npm-version-img]: https://badgen.net/npm/v/stringendo?&icon=npm&label=npm&color=DD3636
+[npm-downloads-url]: https://npmjs.com/package/stringendo
+[npm-downloads-img]: https://badgen.net/npm/dt/stringendo?&icon=terminal&label=downloads&color=009688
+[releasly-url]: https://app.releasly.co/sites/r37r0m0d3l/stringendo?utm_source=github_badge
+[releasly-img]: https://app.releasly.co/assets/badges/badge-blue-classic.svg
+[travis-url]: https://lgtm.com/projects/g/r37r0m0d3l/stringendo/?mode=list
+[travis-img]: https://badgen.net/travis/r37r0m0d3l/stringendo?&icon=travis&label=build
+[ts-url]: https://github.com/r37r0m0d3l/stringendo/blob/master/dist/stringendo.d.ts
+[ts-img]: https://badgen.net/npm/types/stringendo?&icon=typescript&label=types&color=1E90FF
